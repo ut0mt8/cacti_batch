@@ -1,0 +1,13 @@
+CactiBatch
+RMZ 2006/2011
+
+A collection of php script to easily batch
+creation of graphs in a plenty of devices.
+
+All is done by the automagic command "cactibatch".
+All the conf is very straightforward and examples
+are provided.
+
+Note : some part of this code is now included in
+cacti by default in cli utilities.
+

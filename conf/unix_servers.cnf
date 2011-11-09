@@ -1,0 +1,15 @@
+<?
+$template_host = 3;
+$snmp_ver = "2";
+$createTree = true;
+$addGraphToHost = true;
+$excludeIF = '/lo|vif|xenbr/';
+$includePart = '/Memory|memory|Swap/';
+$excludePart = '/^\/proc|^\/sys|^\/dev|exported/';
+$graphing['Cpu'] = true;
+$graphing['Load'] = true;
+$graphing['Mem'] = true;
+$graphing['Procs'] = true;
+$graphing['HD'] = true;
+$graphing['IF'] = true;
+?>

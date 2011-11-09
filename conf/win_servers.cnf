@@ -1,0 +1,13 @@
+<?
+$template_host = 3;
+$snmp_ver = "2";
+$createTree = true;
+$addGraphToHost = true;
+$excludeIF = '/Loopback/';
+$excludeIFnoip = true;
+$includePart = '/C:|D:|E:|F:|G:|H:|Memory/';
+$graphing['Ncpu'] = true;
+$graphing['Procs'] = true;
+$graphing['HD'] = true;
+$graphing['IF'] = true;
+?>

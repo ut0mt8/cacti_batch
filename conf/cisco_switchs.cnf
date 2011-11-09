@@ -1,0 +1,10 @@
+<?
+$template_host = 3;
+$snmp_ver = 2;
+$createTree = true;
+$addGraphToHost = true;
+$excludeIF = '/Null0|layer|subif/';
+$graphing['CiscoCpu'] = true;
+$graphing['CiscoMem'] = true;
+$graphing['IF'] = true;
+?>
